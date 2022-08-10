@@ -1,0 +1,6 @@
+name: WorldEditRemote
+version: '${project.version}'
+main: com.github.tsuoihito.worldeditremote.WorldEditRemote
+api-version: 1.18
+authors: [ tsuoihito ]
+depend: [ WorldEdit ]
