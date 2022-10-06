@@ -1,4 +1,4 @@
-package com.github.tsuoihito.worldeditremote;
+package com.github.tsuoihito.worldeditlook;
 
 import com.sk89q.worldedit.LocalSession;
 import com.sk89q.worldedit.WorldEdit;
@@ -14,9 +14,9 @@ import org.bukkit.event.player.PlayerInteractEvent;
 
 public class WandListener implements Listener {
 
-    private final WorldEditRemote plugin;
+    private final WorldEditLook plugin;
 
-    public WandListener(WorldEditRemote plugin) {
+    public WandListener(WorldEditLook plugin) {
         this.plugin = plugin;
     }
 
